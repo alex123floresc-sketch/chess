@@ -2,10 +2,11 @@
 
 Página web que analiza partidas de ajedrez con Stockfish 17.1 dentro del navegador.
 
-- Pega un PGN (Chess.com, Lichess) o un FEN, o importa tus últimas partidas por nombre de usuario.
-- Cada jugada recibe una calificación: brillante, genial, mejor, excelente, buena, imprecisión, error o error grave.
-- Precisión por jugador, barra de evaluación y gráfico de ventaja.
+- **Análisis**: tablero, barra de evaluación, calificación de cada jugada (brillante !!, genial !, mejor, excelente, buena, imprecisión ?!, error ?, error grave ??), precisión por jugador, gráfico de ventaja y la jugada que más cambió la partida.
+- **Cargar**: busca tus últimas 10 partidas de Chess.com o Lichess por nombre de usuario, o pega un PGN o un FEN.
+- **Ajustes**: elige el motor (Lite de 7 MB o completo de 79 MB) y la profundidad del análisis.
 - Mueve las piezas en cualquier posición para probar variantes: el motor califica tu jugada y muestra las mejores continuaciones.
+- Usa varios núcleos del procesador cuando el navegador lo permite, y se puede instalar como app en el celular («Agregar a la pantalla de inicio»).
 
 ## Publicar con GitHub Pages
 
